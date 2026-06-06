@@ -1,0 +1,105 @@
+# ──────────────────────────────────────────
+# Dependências
+# ──────────────────────────────────────────
+node_modules/
+.pnp
+.pnp.js
+
+# ──────────────────────────────────────────
+# Build de produção (gerado pelo Vite)
+# ──────────────────────────────────────────
+dist/
+dist-ssr/
+build/
+
+# ──────────────────────────────────────────
+# Cache do TypeScript
+# ──────────────────────────────────────────
+*.tsbuildinfo
+tsconfig.tsbuildinfo
+
+# ──────────────────────────────────────────
+# Variáveis de ambiente (dados sensíveis)
+# ──────────────────────────────────────────
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.staging
+
+# ──────────────────────────────────────────
+# Logs
+# ──────────────────────────────────────────
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+*.log
+
+# ──────────────────────────────────────────
+# Cache de ferramentas
+# ──────────────────────────────────────────
+.vite/
+.cache/
+.eslintcache
+.stylelintcache
+.prettier-cache
+
+# ──────────────────────────────────────────
+# IDEs e editores
+# ──────────────────────────────────────────
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/launch.json
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ──────────────────────────────────────────
+# Sistema operacional
+# ──────────────────────────────────────────
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Linux
+*~
+
+# ──────────────────────────────────────────
+# Testes e cobertura
+# ──────────────────────────────────────────
+coverage/
+.nyc_output/
+*.lcov
+
+# ──────────────────────────────────────────
+# Storybook (se adicionado futuramente)
+# ──────────────────────────────────────────
+storybook-static/
+
+# ──────────────────────────────────────────
+# Misc
+# ──────────────────────────────────────────
+*.local
+*.pem
+*.gitkeep
