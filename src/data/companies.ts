@@ -15,12 +15,12 @@ export const COMPANIES: Company[] = [
 ];
 
 export const COMPANY_COLORS: string[] = [
-  "from-blue-500/20 to-blue-600/10 border-blue-400/20 text-blue-300",
-  "from-indigo-500/20 to-indigo-600/10 border-indigo-400/20 text-indigo-300",
-  "from-cyan-500/20 to-cyan-600/10 border-cyan-400/20 text-cyan-300",
-  "from-sky-500/20 to-sky-600/10 border-sky-400/20 text-sky-300",
-  "from-violet-500/20 to-violet-600/10 border-violet-400/20 text-violet-300",
-  "from-blue-400/20 to-blue-500/10 border-blue-300/20 text-blue-200",
-  "from-teal-500/20 to-teal-600/10 border-teal-400/20 text-teal-300",
-  "from-slate-500/20 to-slate-600/10 border-slate-400/20 text-slate-300",
+  "from-blue-600/20 to-blue-600/10 border-blue-600/20 text-blue-600",
+  "from-indigo-600/20 to-indigo-600/10 border-indigo-600/20 text-indigo-600",
+  "from-cyan-600/20 to-cyan-600/10 border-cyan-600/20 text-cyan-600",
+  "from-sky-600/20 to-sky-600/10 border-sky-600/20 text-sky-600",
+  "from-violet-600/20 to-violet-600/10 border-violet-600/20 text-violet-600",
+  "from-blue-600/20 to-blue-600/10 border-blue-600/20 text-blue-600",
+  "from-teal-600/20 to-teal-600/10 border-teal-600/20 text-teal-600",
+  "from-slate-600/20 to-slate-600/10 border-slate-600/20 text-slate-600",
 ];

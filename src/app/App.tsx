@@ -1,3 +1,4 @@
+import { ThemeProvider } from "./context/ThemeContext";
 import { Header } from "./components/organisms/Header";
 import { Hero } from "./components/organisms/Hero";
 import { HowItWorks } from "./components/organisms/HowItWorks";
@@ -11,6 +12,7 @@ import { Footer } from "./components/organisms/Footer";
 
 export default function App() {
   return (
+    <ThemeProvider>
     <div className="bg-[#0a1628]">
       <Header />
       <main>
@@ -25,5 +27,6 @@ export default function App() {
       </main>
       <Footer />
     </div>
+    </ThemeProvider>
   );
 }

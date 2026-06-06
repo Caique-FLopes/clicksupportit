@@ -11,7 +11,7 @@ export const NAV_LINKS: NavLink[] = [
   { label: "Contato", href: "#contato" },
 ];
 
-export const COMPANY_BRANDING = {
-  name: "RemoteDesk",
-  tagline: "Suporte TI",
+export const COMPANY_BRANDING: { name: string; tagline?: string } = {
+  name: "Click Support IT",
+  // tagline: "Suporte TI",
 };

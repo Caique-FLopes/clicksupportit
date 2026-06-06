@@ -1,10 +1,12 @@
 import { useState, useEffect } from "react";
-import { Menu, X, Headphones } from "lucide-react";
+import { Menu, X, Headphones, Lightbulb, LightbulbOff } from "lucide-react";
 import { NAV_LINKS, COMPANY_BRANDING } from "../../../data/navigation";
+import { useTheme } from "../../context/ThemeContext";
 
 export function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
+  const { theme, toggleTheme } = useTheme();
 
   useEffect(() => {
     const handleScroll = () => setIsScrolled(window.scrollY > 20);
@@ -37,7 +39,9 @@ export function Header() {
               <span className="text-white font-semibold text-lg leading-none block">
                 {COMPANY_BRANDING.name}
               </span>
-              <span className="text-blue-400 text-xs leading-none">{COMPANY_BRANDING.tagline}</span>
+              {COMPANY_BRANDING.tagline && (
+                <span className="text-blue-400 text-xs leading-none">{COMPANY_BRANDING.tagline}</span>
+              )}
             </div>
           </div>
 
@@ -54,8 +58,17 @@ export function Header() {
             ))}
           </nav>
 
-          {/* CTA Button */}
-          <div className="hidden lg:block">
+          {/* CTA Button + Theme Toggle (desktop) */}
+          <div className="hidden lg:flex items-center gap-2">
+            <button
+              onClick={toggleTheme}
+              aria-label={theme === "dark" ? "Mudar para modo claro" : "Mudar para modo escuro"}
+              className="w-9 h-9 rounded-lg bg-white/10 hover:bg-white/15 border border-white/10 flex items-center justify-center transition-colors text-slate-300 hover:text-white"
+            >
+              {theme === "dark"
+                ? <Lightbulb className="w-4 h-4" />
+                : <LightbulbOff className="w-4 h-4" />}
+            </button>
             <button
               onClick={() => handleNavClick("#contato")}
               className="bg-blue-600 hover:bg-blue-500 text-white px-5 py-2.5 rounded-lg text-sm font-semibold transition-all duration-200 shadow-lg shadow-blue-600/30 hover:shadow-blue-500/40"
@@ -64,13 +77,24 @@ export function Header() {
             </button>
           </div>
 
-          {/* Mobile menu button */}
-          <button
-            className="lg:hidden text-white p-2 rounded-lg hover:bg-white/10 transition-colors"
-            onClick={() => setMobileOpen(!mobileOpen)}
-          >
-            {mobileOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
-          </button>
+          {/* Mobile: Theme Toggle + Hamburger */}
+          <div className="lg:hidden flex items-center gap-1">
+            <button
+              onClick={toggleTheme}
+              aria-label={theme === "dark" ? "Mudar para modo claro" : "Mudar para modo escuro"}
+              className="text-slate-300 p-2 rounded-lg hover:bg-white/10 transition-colors"
+            >
+              {theme === "dark"
+                ? <Lightbulb className="w-5 h-5" />
+                : <LightbulbOff className="w-5 h-5" />}
+            </button>
+            <button
+              className="text-white p-2 rounded-lg hover:bg-white/10 transition-colors"
+              onClick={() => setMobileOpen(!mobileOpen)}
+            >
+              {mobileOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+            </button>
+          </div>
         </div>
       </div>
 

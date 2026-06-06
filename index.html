@@ -42,6 +42,18 @@
       </script>
 
       <style>html, body { height: 100%; margin: 0; } #root { height: 100%; }</style>
+
+      <!-- Anti-flash: apply saved theme before first paint -->
+      <script>
+        (function () {
+          try {
+            var t = localStorage.getItem("csi-theme");
+            document.documentElement.classList.toggle("dark", t !== "light");
+          } catch (e) {
+            document.documentElement.classList.add("dark");
+          }
+        })();
+      </script>
     </head>
 
     <body>

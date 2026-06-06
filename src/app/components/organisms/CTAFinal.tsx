@@ -11,7 +11,7 @@ export function CTAFinal() {
   return (
     <section className="py-24 bg-[#0a1628]">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="relative rounded-3xl overflow-hidden">
+        <div className="relative rounded-3xl overflow-hidden csi-cta-card">
           {/* Gradient background */}
           <div className="absolute inset-0 bg-gradient-to-br from-blue-600 via-blue-700 to-indigo-800" />
 

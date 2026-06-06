@@ -29,7 +29,9 @@ export function Footer() {
                 <span className="text-white font-semibold text-lg leading-none block">
                   {COMPANY_BRANDING.name}
                 </span>
-                <span className="text-blue-400 text-xs leading-none">{COMPANY_BRANDING.tagline}</span>
+                {COMPANY_BRANDING.tagline && (
+                  <span className="text-blue-400 text-xs leading-none">{COMPANY_BRANDING.tagline}</span>
+                )}
               </div>
             </div>
             <p className="text-slate-400 text-sm leading-relaxed mb-6">

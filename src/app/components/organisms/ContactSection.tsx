@@ -1,11 +1,34 @@
 import { useState } from "react";
-import { Send, CheckCircle2 } from "lucide-react";
+import { Send, MessageCircle } from "lucide-react";
 import { SectionBadge } from "../atoms/SectionBadge";
 import { ContactInfoItem } from "../molecules/ContactInfoItem";
 import { CONTACT_INFO_ITEMS, SERVICE_OPTIONS } from "../../../data/contact";
+import { FOOTER_CONTACT } from "../../../data/footer";
+
+function buildWhatsAppUrl(form: {
+  name: string;
+  email: string;
+  country: string;
+  service: string;
+  message: string;
+}): string {
+  const serviceLabel =
+    SERVICE_OPTIONS.find((o) => o.value === form.service)?.label || form.service || "não informado";
+
+  const text = [
+    `Olá, me chamo ${form.name || "não informado"}.`,
+    `Sou de ${form.country || "não informado"} e preciso de ajuda com ${serviceLabel}.`,
+    form.message || "",
+    `Contato: ${form.email || "não informado"}`,
+  ]
+    .filter(Boolean)
+    .join("\n");
+
+  const phone = FOOTER_CONTACT.whatsappHref.replace("https://wa.me/", "");
+  return `https://wa.me/${phone}?text=${encodeURIComponent(text)}`;
+}
 
 export function ContactSection() {
-  const [submitted, setSubmitted] = useState(false);
   const [form, setForm] = useState({
     name: "",
     email: "",
@@ -22,7 +45,7 @@ export function ContactSection() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    setSubmitted(true);
+    window.open(buildWhatsAppUrl(form), "_blank", "noopener,noreferrer");
   };
 
   return (
@@ -52,17 +75,6 @@ export function ContactSection() {
 
           {/* Form */}
           <div className="bg-[#0a1628] border border-white/10 rounded-2xl p-8">
-            {submitted ? (
-              <div className="flex flex-col items-center justify-center py-12 text-center">
-                <div className="w-16 h-16 rounded-full bg-green-500/20 border border-green-400/30 flex items-center justify-center mb-4">
-                  <CheckCircle2 className="w-8 h-8 text-green-400" />
-                </div>
-                <h3 className="text-white font-semibold text-xl mb-2">Solicitação enviada!</h3>
-                <p className="text-slate-400">
-                  Nossa equipe entrará em contato em breve. Obrigado!
-                </p>
-              </div>
-            ) : (
               <form onSubmit={handleSubmit} className="space-y-5">
                 <div className="grid sm:grid-cols-2 gap-5">
                   <div>
@@ -138,15 +150,24 @@ export function ContactSection() {
                   type="submit"
                   className="w-full flex items-center justify-center gap-2 bg-blue-600 hover:bg-blue-500 text-white py-4 rounded-xl font-semibold transition-all duration-200 shadow-lg shadow-blue-600/30 hover:shadow-blue-500/40 hover:-translate-y-0.5"
                 >
-                  Enviar Solicitação
+                  Enviar pelo WhatsApp
                   <Send className="w-5 h-5" />
                 </button>
+
+                <a
+                  href={buildWhatsAppUrl(form)}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-full flex items-center justify-center gap-2 bg-green-600 hover:bg-green-500 text-white py-3 rounded-xl font-semibold transition-all duration-200 text-sm"
+                >
+                  <MessageCircle className="w-4 h-4" />
+                  Ou fale diretamente pelo WhatsApp
+                </a>
 
                 <p className="text-slate-500 text-xs text-center">
                   Ao enviar, você concorda com nossa política de privacidade.
                 </p>
               </form>
-            )}
           </div>
         </div>
       </div>

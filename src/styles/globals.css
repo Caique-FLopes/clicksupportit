@@ -1,0 +1,79 @@
+/* ==========================================================
+   Light mode overrides
+   Aplicado quando .dark NÃO está presente no <html>
+   ========================================================== */
+
+/* --- Backgrounds principais (seções e cards) --- */
+html:not(.dark) [class*="bg-[#0a1628]"] { background-color: #f8fafc !important; }
+html:not(.dark) [class*="bg-[#0d1c35]"] { background-color: #f1f5f9 !important; }
+html:not(.dark) [class*="bg-[#060e1f]"] { background-color: #e2e8f0 !important; }
+html:not(.dark) [class*="bg-[#0f2040]"] { background-color: #dde8f2 !important; }
+
+/* --- Gradiente da seção TrustBadges --- */
+html:not(.dark) [class~="from-[#0d1c35]"][class~="to-[#0a1628]"] {
+  background-image: linear-gradient(to bottom, #f1f5f9, #f8fafc) !important;
+}
+
+/* --- Fade edges do marquee — sobreescreve a CSS var do gradiente --- */
+html:not(.dark) [class*="from-[#0a1628]"] {
+  --tw-gradient-from: #f8fafc !important;
+}
+
+/* --- Cores de texto (global) --- */
+html:not(.dark) .text-white     { color: #0f172a !important; }
+html:not(.dark) .text-slate-300 { color: #475569 !important; }
+html:not(.dark) .text-slate-400 { color: #64748b !important; }
+html:not(.dark) .text-slate-500 { color: #94a3b8 !important; }
+html:not(.dark) .text-blue-100  { color: #1d4ed8 !important; }
+html:not(.dark) .text-blue-300  { color: #1d4ed8 !important; }
+
+/* --- Restaurar texto branco em elementos que têm fundo colorido sólido --- */
+/* Botões azuis/indigo/colored (o próprio elemento tem bg + text-white) */
+html:not(.dark) [class*="bg-blue-5"].text-white,
+html:not(.dark) [class*="bg-blue-6"].text-white,
+html:not(.dark) [class*="bg-blue-7"].text-white,
+html:not(.dark) [class*="bg-indigo-"].text-white,
+html:not(.dark) [class*="bg-green-5"].text-white,
+html:not(.dark) [class*="bg-cyan-5"].text-white,
+html:not(.dark) [class*="bg-sky-5"].text-white,
+html:not(.dark) [class*="bg-amber-5"].text-white,
+html:not(.dark) [class*="bg-violet-5"].text-white { color: #ffffff !important; }
+
+/* Ícones dentro de containers coloridos dos Diferenciais e outros */
+html:not(.dark) [class*="bg-blue-5"] .text-white,
+html:not(.dark) [class*="bg-blue-6"] .text-white,
+html:not(.dark) [class*="bg-indigo-5"] .text-white,
+html:not(.dark) [class*="bg-cyan-5"] .text-white,
+html:not(.dark) [class*="bg-sky-5"] .text-white,
+html:not(.dark) [class*="bg-amber-5"] .text-white,
+html:not(.dark) [class*="bg-violet-5"] .text-white { color: #ffffff !important; }
+
+/* --- CTA Final: todos os textos dentro do card azul --- */
+html:not(.dark) .csi-cta-card .text-white   { color: #ffffff !important; }
+html:not(.dark) .csi-cta-card .text-blue-100 { color: rgb(219 234 254) !important; }
+
+/* --- Número watermark dos Diferenciais (text-white/3 → azul sutil no light) --- */
+html:not(.dark) .text-white\/3 { color: rgb(37 99 235 / 0.07) !important; }
+
+/* --- Verde: mais escuro e menos limão no light mode --- */
+html:not(.dark) .text-green-400 { color: #16a34a !important; }
+html:not(.dark) .bg-green-400   { background-color: #16a34a !important; }
+
+/* --- Bordas brancas --- */
+html:not(.dark) .border-white\/5  { border-color: rgb(0 0 0 / 0.05) !important; }
+html:not(.dark) .border-white\/10 { border-color: rgb(0 0 0 / 0.1)  !important; }
+html:not(.dark) .border-white\/20 { border-color: rgb(0 0 0 / 0.15) !important; }
+html:not(.dark) .border-white\/25 { border-color: rgb(0 0 0 / 0.18) !important; }
+html:not(.dark) .border-white\/30 { border-color: rgb(0 0 0 / 0.2)  !important; }
+
+/* --- Fundos com opacidade branca --- */
+html:not(.dark) .bg-white\/5  { background-color: rgb(0 0 0 / 0.03) !important; }
+html:not(.dark) .bg-white\/10 { background-color: rgb(0 0 0 / 0.05) !important; }
+html:not(.dark) .bg-white\/15 { background-color: rgb(0 0 0 / 0.07) !important; }
+html:not(.dark) .bg-white\/25 { background-color: rgb(0 0 0 / 0.1)  !important; }
+
+/* hover variants */
+html:not(.dark) .hover\:bg-white\/10:hover { background-color: rgb(0 0 0 / 0.05) !important; }
+html:not(.dark) .hover\:bg-white\/15:hover { background-color: rgb(0 0 0 / 0.07) !important; }
+html:not(.dark) .hover\:bg-white\/25:hover { background-color: rgb(0 0 0 / 0.1)  !important; }
+

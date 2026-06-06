@@ -9,7 +9,7 @@ interface SectionBadgeProps {
 export function SectionBadge({ children, color = "blue", icon }: SectionBadgeProps) {
   const colorClass =
     color === "green"
-      ? "bg-green-500/15 border-green-400/30 text-green-300"
+      ? "bg-green-500/15 border-green-400/30 text-green-600"
       : "bg-blue-500/15 border-blue-400/30 text-blue-300";
 
   return (
