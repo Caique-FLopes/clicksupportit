@@ -1,0 +1,112 @@
+{
+  "timestamp": "2026-06-07T14-27-01-752Z",
+  "persona": {
+    "nome": "Carlos Oliveira",
+    "cargo": "Analista Financeiro Júnior",
+    "pais": "Estados Unidos",
+    "objetivo": "Solicitar um orçamento de suporte técnico remoto para consertar seu notebook que não está conectando ao Wi-Fi do escritório"
+  },
+  "analise": {
+    "primeira_impressao": "A página parece profissional e exatamente o que eu preciso - suporte remoto em português para brasileiros no exterior. O layout é limpo e o foco no atendimento em português me deixa mais confortável.",
+    "confianca_inicial": 7,
+    "consegue_identificar_cta": true,
+    "onde_esta_o_cta": "Há múltiplos CTAs visíveis: botão 'Solicitar Suporte' no topo, um formulário de contato na seção 'Fale Conosco' no final da página, e também um botão de WhatsApp. O formulário está bem destacado com campos claros.",
+    "jornada": [
+      {
+        "passo": 1,
+        "acao": "Rolo a página rapidamente para entender o que a empresa oferece e verificar se atendem meu tipo de problema",
+        "pensamento": "Preciso ter certeza de que eles resolvem problemas de Wi-Fi em notebooks antes de perder tempo preenchendo formulários",
+        "dificuldade": 1
+      },
+      {
+        "passo": 2,
+        "acao": "Identifico a seção 'Principais Serviços' e vejo 'Redes e Internet' e 'Suporte em Computadores'",
+        "pensamento": "Perfeito, eles trabalham exatamente com o que preciso. Também vi que atendem nos Estados Unidos. Agora preciso solicitar o orçamento",
+        "dificuldade": 1
+      },
+      {
+        "passo": 3,
+        "acao": "Vou direto para o formulário na seção 'Fale Conosco' e começo a preencher",
+        "pensamento": "O formulário parece completo. Vou preencher com meus dados reais para receber o orçamento",
+        "dificuldade": 2
+      },
+      {
+        "passo": 4,
+        "acao": "Preencho: Nome 'Carlos Oliveira', E-mail, País 'Estados Unidos'",
+        "pensamento": "Campos básicos, sem complicação. Está fluindo bem",
+        "dificuldade": 1
+      },
+      {
+        "passo": 5,
+        "acao": "Seleciono 'Tipo de serviço' e fico em dúvida entre 'Redes e Internet' e 'Suporte em Computadores'",
+        "pensamento": "Meu problema é Wi-Fi no notebook... tecnicamente é rede, mas também é computador. Vou escolher 'Redes e Internet' porque o problema específico é conectividade",
+        "dificuldade": 3
+      },
+      {
+        "passo": 6,
+        "acao": "Escrevo no campo 'Descreva seu problema': 'Meu notebook Dell não reconhece redes Wi-Fi desde a última atualização do Windows. Preciso de suporte remoto urgente e gostaria de um orçamento'",
+        "pensamento": "Importante deixar claro que preciso de orçamento, não apenas suporte direto. Também menciono a urgência",
+        "dificuldade": 1
+      },
+      {
+        "passo": 7,
+        "acao": "Procuro o botão de enviar no formulário",
+        "pensamento": "Cadê o botão de enviar? Só vejo 'Enviar pelo WhatsApp'. Isso vai me redirecionar para o WhatsApp ao invés de enviar o formulário?",
+        "dificuldade": 4
+      },
+      {
+        "passo": 8,
+        "acao": "Leio novamente e percebo que não há um botão tradicional de 'Enviar' - apenas a opção de WhatsApp",
+        "pensamento": "Isso é confuso. Preenchi todo o formulário mas parece que preciso usar o WhatsApp. Não está claro se meus dados do formulário serão enviados ou se preciso digitar tudo de novo no WhatsApp",
+        "dificuldade": 5
+      },
+      {
+        "passo": 9,
+        "acao": "Decido clicar em 'Enviar pelo WhatsApp' mesmo com a dúvida",
+        "pensamento": "Espero que isso envie as informações que digitei. Como analista, preferiria um processo mais claro e formal por e-mail para ter registro do orçamento",
+        "dificuldade": 3
+      }
+    ],
+    "conseguiu_solicitar_orcamento": true,
+    "motivo_falha": "",
+    "pontos_positivos": [
+      "Foco claro em brasileiros no exterior elimina minha principal barreira (idioma)",
+      "Múltiplas opções de contato (formulário e WhatsApp)",
+      "Serviços bem organizados e fáceis de identificar",
+      "Visual profissional e limpo",
+      "Informação de resposta em 24h gera expectativa clara",
+      "Processo de atendimento explicado passo a passo",
+      "Menção a empresas atendidas aumenta credibilidade"
+    ],
+    "pontos_negativos": [
+      "Formulário não tem botão de envio tradicional - apenas redirecionamento para WhatsApp",
+      "Não fica claro se os dados do formulário serão aproveitados ao clicar em 'Enviar pelo WhatsApp'",
+      "Dúvida entre categorias de serviço (problema pode se encaixar em mais de uma)",
+      "Não há informação sobre precificação ou faixa de valores, dificulta expectativa de orçamento",
+      "Nomes genéricos nas 'Empresas Atendidas' (EA, EB) reduzem credibilidade",
+      "Falta horário de atendimento claro"
+    ],
+    "sugestoes": [
+      "Adicionar um botão 'Enviar Formulário' tradicional além da opção WhatsApp",
+      "Explicar claramente que ao clicar em 'Enviar pelo WhatsApp' os dados do formulário serão transferidos",
+      "Incluir uma seção de 'Perguntas Frequentes' com informações sobre precificação",
+      "Adicionar exemplos nas categorias de serviço (ex: 'Redes e Internet - problemas de Wi-Fi, VPN, etc')",
+      "Mostrar logos ou nomes reais de clientes se possível, ou remover a seção",
+      "Incluir informação sobre horário de atendimento e fuso horário",
+      "Adicionar uma prévia do orçamento ou valores de referência",
+      "Incluir depoimentos reais de clientes brasileiros no exterior"
+    ],
+    "nota_clareza": 7,
+    "nota_credibilidade": 6,
+    "nota_navegacao": 8,
+    "nota_conversao": 6,
+    "comentario_final": "A página tem uma proposta de valor clara e relevante para meu perfil, mas a execução do formulário de contato gera confusão no momento crucial da conversão. Como analista, senti falta de informações sobre precificação e um processo mais formal de solicitação de orçamento. O redirecionamento obrigatório para WhatsApp, embora seja um canal válido, não é minha preferência para solicitar orçamentos profissionais."
+  },
+  "notas": {
+    "media": "6.8",
+    "clareza": 7,
+    "credibilidade": 6,
+    "navegacao": 8,
+    "conversao": 6
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "nome": "Carlos Oliveira",
+  "idade": 35,
+  "cargo": "Analista Financeiro Júnior",
+  "pais": "Estados Unidos",
+  "cidade": "Miami, FL",
+  "objetivo": "Solicitar um orçamento de suporte técnico remoto para consertar seu notebook que não está conectando ao Wi-Fi do escritório",
+  "perfil": "analítico",
+  "experiencia_tech": "média",
+  "idioma_preferido": "português",
+  "contexto": "Carlos mora em Miami há 2 anos. Trabalha para uma empresa brasileira com sede em São Paulo. Seu notebook Dell não está reconhecendo redes Wi-Fi desde a última atualização do Windows. O suporte da empresa demora dias para responder e ele precisa de ajuda rápida. Encontrou a ClickSupport IT no Google buscando por 'suporte técnico remoto em português'.",
+  "motivacoes": [
+    "Ser atendido em português",
+    "Resolver o problema rapidamente (dentro de 24h)",
+    "Preço acessível para pessoa física"
+  ],
+  "frustrações_potenciais": [
+    "Formulários muito longos",
+    "Não saber qual 'tipo de serviço' escolher",
+    "Falta de informação de preço no site",
+    "CTA pouco visível ou confuso"
+  ],
+  "dados_formulario": {
+    "nome": "Carlos Oliveira",
+    "email": "carlos.oliveira@email.com",
+    "pais": "Estados Unidos",
+    "servico": "computadores",
+    "mensagem": "Meu notebook Dell não está conectando ao Wi-Fi desde a última atualização do Windows 11. Preciso de suporte remoto urgente. Estou em Miami e prefiro atendimento em português."
+  }
+}

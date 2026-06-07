@@ -1,0 +1,107 @@
+{
+  "timestamp": "2026-06-07T14-27-01-833Z",
+  "persona": {
+    "nome": "Carlos Oliveira",
+    "cargo": "Analista Financeiro Júnior",
+    "pais": "Estados Unidos",
+    "objetivo": "Solicitar um orçamento de suporte técnico remoto para consertar seu notebook que não está conectando ao Wi-Fi do escritório"
+  },
+  "analise": {
+    "primeira_impressao": "A página parece profissional e diretamente voltada para meu problema - brasileiros no exterior precisando de suporte em português. O design é limpo e deixa claro que fazem atendimento remoto.",
+    "confianca_inicial": 7,
+    "consegue_identificar_cta": true,
+    "onde_esta_o_cta": "Há vários CTAs visíveis: botão 'Solicitar Suporte' no topo, 'Solicitar Atendimento' no meio da página, e um formulário completo na seção 'Fale Conosco' com campos para preencher. Também tem opção de WhatsApp.",
+    "jornada": [
+      {
+        "passo": 1,
+        "acao": "Leio o título principal e confirmo que é realmente para brasileiros no exterior",
+        "pensamento": "Parece ser exatamente o que preciso. Atendimento em português é um diferencial importante.",
+        "dificuldade": 1
+      },
+      {
+        "passo": 2,
+        "acao": "Rolo a página procurando por 'Redes e Internet' nos serviços oferecidos",
+        "pensamento": "Preciso confirmar que eles resolvem problemas de Wi-Fi antes de preencher o formulário.",
+        "dificuldade": 1
+      },
+      {
+        "passo": 3,
+        "acao": "Encontro o card 'Redes e Internet' que menciona 'Configuração e resolução de problemas de conectividade'",
+        "pensamento": "Perfeito, é exatamente meu problema. Agora vou buscar o formulário ou forma de contato.",
+        "dificuldade": 1
+      },
+      {
+        "passo": 4,
+        "acao": "Rolo até a seção 'Fale Conosco' e encontro o formulário de contato",
+        "pensamento": "O formulário está completo e tem o campo específico para selecionar 'Redes e Internet'. Vou preencher.",
+        "dificuldade": 1
+      },
+      {
+        "passo": 5,
+        "acao": "Preencho: Nome (Carlos Oliveira), E-mail, País (Estados Unidos), seleciono 'Redes e Internet'",
+        "pensamento": "Os campos são claros e diretos. Gosto que tenha um dropdown específico para tipo de serviço.",
+        "dificuldade": 1
+      },
+      {
+        "passo": 6,
+        "acao": "Descrevo o problema: 'Notebook Dell não reconhece redes Wi-Fi após atualização do Windows. Preciso de suporte remoto urgente.'",
+        "pensamento": "O campo de descrição é adequado. Agora preciso saber quanto vai custar antes de enviar.",
+        "dificuldade": 2
+      },
+      {
+        "passo": 7,
+        "acao": "Procuro informações sobre preço ou orçamento na página",
+        "pensamento": "Não vejo nenhuma menção a valores ou como funciona a cobrança. Isso me deixa um pouco inseguro de apenas enviar sem saber quanto custará.",
+        "dificuldade": 3
+      },
+      {
+        "passo": 8,
+        "acao": "Decido enviar mesmo assim, mas considero também usar o WhatsApp para perguntar sobre valores primeiro",
+        "pensamento": "Como analista financeiro, preferiria ter uma ideia de custo antes. Mas a urgência do problema me força a seguir em frente.",
+        "dificuldade": 2
+      }
+    ],
+    "conseguiu_solicitar_orcamento": true,
+    "motivo_falha": "",
+    "pontos_positivos": [
+      "Atendimento em português claramente destacado - resolve minha principal barreira",
+      "Formulário completo e bem estruturado com dropdown específico para tipos de serviço",
+      "Múltiplas opções de contato (formulário e WhatsApp)",
+      "Serviço de 'Redes e Internet' está claramente listado",
+      "Design profissional que passa credibilidade",
+      "Processo de atendimento explicado em 4 etapas claras",
+      "Menção a 'resposta em até 24h' gera expectativa clara",
+      "Empresas atendidas mostradas aumentam confiança"
+    ],
+    "pontos_negativos": [
+      "Nenhuma informação sobre preços, valores ou como é feita a cobrança",
+      "Não fica claro se o orçamento é gratuito ou se já estou contratando o serviço ao enviar",
+      "Falta informação sobre formas de pagamento aceitas (importante para quem mora no exterior)",
+      "Não há estimativa de tempo de atendimento ou SLA",
+      "As empresas mostradas são apenas iniciais/logos genéricos, não parecem reais",
+      "Falta depoimentos ou cases de clientes reais"
+    ],
+    "sugestoes": [
+      "Adicionar seção de preços ou pelo menos faixas de valores para cada tipo de serviço",
+      "Deixar explícito que o formulário é para 'solicitar orçamento gratuito' e não uma contratação direta",
+      "Incluir informações sobre formas de pagamento internacional (PayPal, cartão internacional, etc)",
+      "Adicionar depoimentos reais de brasileiros no exterior que já usaram o serviço",
+      "Incluir um FAQ sobre dúvidas comuns: quanto custa, quanto tempo leva, como é feito o pagamento",
+      "Mostrar exemplos de casos resolvidos, especialmente problemas de Wi-Fi",
+      "Adicionar certificações ou credenciais da equipe técnica",
+      "Incluir tempo estimado de atendimento para cada tipo de problema"
+    ],
+    "nota_clareza": 8,
+    "nota_credibilidade": 6,
+    "nota_navegacao": 9,
+    "nota_conversao": 7,
+    "comentario_final": "A página é bem estruturada e facilita a solicitação de suporte, com navegação clara e formulário objetivo. O maior problema é a falta total de informações sobre preços, o que gera insegurança para um perfil analítico como o meu. Mesmo conseguindo solicitar o orçamento, fico com dúvidas se deveria ter usado o WhatsApp primeiro para perguntar valores antes de me comprometer."
+  },
+  "notas": {
+    "media": "7.5",
+    "clareza": 8,
+    "credibilidade": 6,
+    "navegacao": 9,
+    "conversao": 7
+  }
+}

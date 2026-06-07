@@ -1,0 +1,95 @@
+{
+  "timestamp": "2026-06-07T14-27-02-854Z",
+  "persona": {
+    "nome": "Carlos Oliveira",
+    "cargo": "Analista Financeiro Júnior",
+    "pais": "Estados Unidos",
+    "objetivo": "Solicitar um orçamento de suporte técnico remoto para consertar seu notebook que não está conectando ao Wi-Fi do escritório"
+  },
+  "analise": {
+    "primeira_impressao": "A página parece profissional e é exatamente o que eu procurava - suporte técnico remoto em português. O design é limpo e vejo várias formas de contato logo de cara.",
+    "confianca_inicial": 7,
+    "consegue_identificar_cta": true,
+    "onde_esta_o_cta": "Há múltiplos CTAs distribuídos pela página: botão 'Solicitar Suporte' no topo, botões 'Solicitar Atendimento' nas seções intermediárias, formulário completo de contato próximo ao rodapé com campos de nome, email, país e descrição do problema, além de opção de WhatsApp",
+    "jornada": [
+      {
+        "passo": 1,
+        "acao": "Rolo a página rapidamente para entender o que a empresa oferece",
+        "pensamento": "Preciso ter certeza que eles resolvem problema de Wi-Fi e entender se são confiáveis antes de preencher qualquer formulário",
+        "dificuldade": 1
+      },
+      {
+        "passo": 2,
+        "acao": "Procuro pela seção de serviços e vejo 'Redes e Internet - Configuração e resolução de problemas de conectividade'",
+        "pensamento": "Perfeito, eles atendem exatamente meu caso. Agora preciso saber quanto vai custar",
+        "dificuldade": 1
+      },
+      {
+        "passo": 3,
+        "acao": "Continuo rolando procurando informações sobre preço ou orçamento",
+        "pensamento": "Não vejo nenhuma informação de preço. Como analista financeiro, isso me incomoda um pouco, mas entendo que pode variar por caso",
+        "dificuldade": 2
+      },
+      {
+        "passo": 4,
+        "acao": "Chego no formulário de contato e leio os campos solicitados",
+        "pensamento": "O formulário parece simples. Tem um campo para 'Tipo de serviço' que deve ter a opção de Redes/Wi-Fi. Vou preencher",
+        "dificuldade": 1
+      },
+      {
+        "passo": 5,
+        "acao": "Preencho: Nome (Carlos Oliveira), Email, País (Estados Unidos), seleciono tipo de serviço e descrevo o problema do Wi-Fi no Dell",
+        "pensamento": "Está tudo claro. Vou mencionar que preciso de orçamento urgente na descrição do problema",
+        "dificuldade": 1
+      },
+      {
+        "passo": 6,
+        "acao": "Clico no botão de enviar o formulário",
+        "pensamento": "Diz que a resposta vem em até 24h. Espero que seja mais rápido que o suporte da empresa",
+        "dificuldade": 1
+      }
+    ],
+    "conseguiu_solicitar_orcamento": true,
+    "motivo_falha": "",
+    "pontos_positivos": [
+      "Múltiplas opções de contato (formulário, WhatsApp, email)",
+      "Atendimento em português claramente destacado",
+      "Serviço de 'Redes e Internet' está bem visível",
+      "Design profissional e organizado",
+      "Informação de resposta em 24h gera expectativa clara",
+      "Seção 'Como Funciona' explica bem o processo",
+      "Atendimento internacional destacado, importante para minha situação em Miami"
+    ],
+    "pontos_negativos": [
+      "Nenhuma informação sobre precificação ou faixas de preço",
+      "Não fica claro se o orçamento é gratuito ou já é cobrado",
+      "Não há informação sobre formas de pagamento internacional",
+      "O formulário não mostra preview do que foi selecionado antes de enviar",
+      "Não há chat ao vivo para dúvidas rápidas",
+      "Empresas parceiras mostradas são genéricas (Empresa Alpha, Beta) - parecem placeholders",
+      "Não há depoimentos de clientes reais"
+    ],
+    "sugestoes": [
+      "Adicionar uma seção com faixas de preço ou 'a partir de X' para dar noção de custo",
+      "Incluir badge ou texto 'Orçamento Gratuito' se for o caso",
+      "Adicionar informação sobre formas de pagamento aceitas (cartão internacional, PayPal, etc)",
+      "Incluir depoimentos reais de brasileiros no exterior que usaram o serviço",
+      "Substituir empresas parceiras genéricas por logos reais ou remover a seção",
+      "Adicionar estimativa de tempo de resolução para problemas comuns",
+      "Criar FAQ com perguntas sobre orçamento e processo de pagamento",
+      "Adicionar chat ao vivo ou chatbot para dúvidas rápidas"
+    ],
+    "nota_clareza": 8,
+    "nota_credibilidade": 6,
+    "nota_navegacao": 9,
+    "nota_conversao": 7,
+    "comentario_final": "A página é clara e funcional, consegui solicitar o orçamento facilmente. Como profissional analítico, senti falta de informações sobre preços e formas de pagamento. A credibilidade seria maior com depoimentos reais e logos verdadeiros de parceiros. No geral, cumpre o objetivo mas poderia inspirar mais confiança com ajustes na transparência financeira."
+  },
+  "notas": {
+    "media": "7.5",
+    "clareza": 8,
+    "credibilidade": 6,
+    "navegacao": 9,
+    "conversao": 7
+  }
+}

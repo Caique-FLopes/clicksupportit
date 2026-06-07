@@ -8,6 +8,7 @@
     "dev": "vite"
   },
   "dependencies": {
+    "@anthropic-ai/sdk": "^0.101.0",
     "@emotion/react": "11.14.0",
     "@emotion/styled": "11.14.1",
     "@mui/icons-material": "7.3.5",
@@ -65,10 +66,13 @@
     "vaul": "1.1.2"
   },
   "devDependencies": {
+    "@playwright/test": "^1.60.0",
     "@tailwindcss/vite": "4.1.12",
+    "@types/node": "^25.9.2",
     "@types/react": "^19.2.16",
     "@types/react-dom": "^19.2.3",
     "@vitejs/plugin-react": "4.7.0",
+    "dotenv": "^17.4.2",
     "tailwindcss": "4.1.12",
     "vite": "6.3.5"
   },
