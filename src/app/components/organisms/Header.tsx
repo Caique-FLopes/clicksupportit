@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Menu, X, Headphones, Lightbulb, LightbulbOff } from "lucide-react";
+import { Menu, X, Headphones, Lightbulb, LightbulbOff, MessageCircle } from "lucide-react";
 import { NAV_LINKS, COMPANY_BRANDING } from "../../../data/navigation";
 import { useTheme } from "../../context/ThemeContext";
 
@@ -18,6 +18,11 @@ export function Header() {
     setMobileOpen(false);
     const el = document.querySelector(href);
     if (el) el.scrollIntoView({ behavior: "smooth" });
+  };
+
+  const openWhatsApp = () => {
+    const text = encodeURIComponent("Olá! Gostaria de falar com um especialista.");
+    window.open(`https://wa.me/5511999999999?text=${text}`, "_blank");
   };
 
   return (
@@ -70,10 +75,17 @@ export function Header() {
                 : <LightbulbOff className="w-4 h-4" />}
             </button>
             <button
-              onClick={() => handleNavClick("#contato")}
-              className="bg-blue-600 hover:bg-blue-500 text-white px-5 py-2.5 rounded-lg text-sm font-semibold transition-all duration-200 shadow-lg shadow-blue-600/30 hover:shadow-blue-500/40"
+              onClick={openWhatsApp}
+              className="flex items-center gap-1.5 text-green-400 hover:text-green-300 border border-green-500/30 hover:border-green-400/50 hover:bg-green-500/10 px-4 py-2 rounded-lg text-sm font-medium transition-all"
             >
-              Solicitar Suporte
+              <MessageCircle className="w-4 h-4" />
+              WhatsApp
+            </button>
+            <button
+              onClick={() => handleNavClick("#contato")}
+              className="bg-blue-600 hover:bg-blue-500 text-white px-5 py-2.5 rounded-lg text-sm font-semibold transition-all duration-200 shadow-lg shadow-blue-600/30"
+            >
+              Orçamento Grátis
             </button>
           </div>
 

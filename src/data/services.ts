@@ -18,6 +18,7 @@ export interface Service {
   bg: string;
   border: string;
   iconColor: string;
+  tags: string[];
 }
 
 export const SERVICES: Service[] = [
@@ -29,6 +30,7 @@ export const SERVICES: Service[] = [
     bg: "bg-blue-500/10",
     border: "border-blue-500/20",
     iconColor: "text-blue-400",
+    tags: ["Software", "Windows", "E-mail", "Antivírus"],
   },
   {
     icon: Laptop,
@@ -38,6 +40,7 @@ export const SERVICES: Service[] = [
     bg: "bg-indigo-500/10",
     border: "border-indigo-500/20",
     iconColor: "text-indigo-400",
+    tags: ["PC lento", "Vírus", "Formatação", "HD/SSD"],
   },
   {
     icon: Wifi,
@@ -47,6 +50,7 @@ export const SERVICES: Service[] = [
     bg: "bg-cyan-500/10",
     border: "border-cyan-500/20",
     iconColor: "text-cyan-400",
+    tags: ["Wi-Fi", "VPN", "Internet lenta", "Rede corporativa"],
   },
   {
     icon: Server,
@@ -56,6 +60,7 @@ export const SERVICES: Service[] = [
     bg: "bg-sky-500/10",
     border: "border-sky-500/20",
     iconColor: "text-sky-400",
+    tags: ["Windows Server", "Linux", "Active Directory", "Remote Desktop"],
   },
   {
     icon: Grid3x3,
@@ -65,6 +70,7 @@ export const SERVICES: Service[] = [
     bg: "bg-blue-400/10",
     border: "border-blue-400/20",
     iconColor: "text-blue-300",
+    tags: ["Teams", "Outlook", "OneDrive", "SharePoint"],
   },
   {
     icon: Shield,
@@ -74,6 +80,7 @@ export const SERVICES: Service[] = [
     bg: "bg-green-500/10",
     border: "border-green-500/20",
     iconColor: "text-green-400",
+    tags: ["Cloud Backup", "Ransomware", "LGPD", "Senhas"],
   },
   {
     icon: Printer,
@@ -83,6 +90,7 @@ export const SERVICES: Service[] = [
     bg: "bg-violet-500/10",
     border: "border-violet-500/20",
     iconColor: "text-violet-400",
+    tags: ["Impressora", "Scanner", "Webcam", "Áudio"],
   },
   {
     icon: Lightbulb,
@@ -92,5 +100,6 @@ export const SERVICES: Service[] = [
     bg: "bg-amber-500/10",
     border: "border-amber-500/20",
     iconColor: "text-amber-400",
+    tags: ["Infraestrutura", "Cloud", "Projetos", "Compliance"],
   },
 ];
